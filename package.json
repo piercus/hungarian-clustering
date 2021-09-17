@@ -8,7 +8,6 @@
     "test": "test"
   },
   "scripts": {
-    "semantic-release": "semantic-release",
     "test": "xo && ava"
   },
   "repository": {
