@@ -1,0 +1,44 @@
+{
+  "name": "hungarian-clustering",
+  "version": "1.0.0",
+  "description": "Clustering using Hungarian Algorithm",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piercus/hungarian-clustering.git"
+  },
+  "keywords": [
+    "cluster",
+    "clustering",
+    "hungarian"
+  ],
+  "author": "Pierre Colle <piercus@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/piercus/hungarian-clustering/issues"
+  },
+  "homepage": "https://github.com/piercus/hungarian-clustering#readme",
+  "dependencies": {
+    "munkres-js": "^1.2.2"
+  },
+  "xo": {
+    "rules": {
+      "unicorn/no-array-callback-reference": 0,
+      "unicorn/no-array-reduce": 0,
+      "unicorn/no-array-for-each": 0,
+      "unicorn/prefer-module": 0,
+      "import/extensions": 0
+    }
+  },
+  "devDependencies": {
+    "ava": "^3.15.0",
+    "xo": "^0.44.0"
+  }
+}
