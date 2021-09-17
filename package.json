@@ -14,6 +14,18 @@
     "type": "git",
     "url": "git+https://github.com/piercus/hungarian-clustering.git"
   },
+  "release": {
+    "branches": [
+      "master"
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/npm",
+      "@semantic-release/github",
+      "@semantic-release/git"
+    ]
+  },
   "keywords": [
     "cluster",
     "clustering",
@@ -39,6 +51,7 @@
   },
   "devDependencies": {
     "ava": "^3.15.0",
+    "semantic-release": "^17.4.7",
     "xo": "^0.44.0"
   }
 }
