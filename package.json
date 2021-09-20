@@ -38,6 +38,7 @@
   },
   "homepage": "https://github.com/piercus/hungarian-clustering#readme",
   "dependencies": {
+    "@semantic-release/git": "^9.0.1",
     "munkres-js": "^1.2.2"
   },
   "xo": {
